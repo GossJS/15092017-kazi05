@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!ELEMENT AboutMe (MyKnowledges, MyContacts) >
+
+<!ELEMENT MyKnowledges (Knowledge+) >
+<!ELEMENT Knowledge EMPTY >
+<!ATTLIST Knowledge 
+   in		CDATA	#REQUIRED
+   value 	CDATA  	#REQUIRED>
+
+<!ELEMENT MyContacts (myphone, myemail) >
+<!ATTLIST myphone
+	value 	CDATA #REQUIRED>
+<!ATTLIST myemail
+	value 	CDATA #REQUIRED>

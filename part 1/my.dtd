@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!ELEMENT отметка (#PCDATA) >
+<!ATTLIST отметка 
+   дисциплина	CDATA	#REQUIRED >
+
+
+<!ELEMENT студент (отметка+) >
+<!ATTLIST студент 
+   имя	CDATA	#REQUIRED >
+
+<!ELEMENT таблица (студент+) >

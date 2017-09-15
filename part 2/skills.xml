@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE AboutMe PUBLIC "DTD by Kazim Gadjiev" "dtd-for-skills.dtd">
+	<AboutMe>
+		<MyKnowledges>
+			<Knowledge in="HTML" value="medium"/>
+			<Knowledge in="CSS3" value="medium"/>
+			<Knowledge in="JSON" value="good"/>
+			<Knowledge in="PHP" value="medium"/>
+			<Knowledge in="JS" value="not good"/>
+			<Knowledge in="HTTP" value="medium"/>
+			<Knowledge in="SQL" value="good"/>
+			<Knowledge in="Swift" value="good"/>
+		</MyKnowledges>	
+		<MyConctacts>
+			<myphone value="+7(988) 212-76-79"/>
+			<myemail value="gajiev.kazim@yabdex.ru"/>
+		</MyConctacts>
+	</AboutMe>
